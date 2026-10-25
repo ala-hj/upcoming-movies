@@ -1,0 +1,6 @@
+config:
+  aws:region: us-east-1
+  myapp:bucketName: my-app-bucket-prod-48151
+  myapp:kmsKeyArn: arn:aws:kms:us-east-1:111122223333:key/prod-key-id
+  myapp:functionName: upcoming-movies-func-prod
+  myapp:secretName: prod-app-secrets

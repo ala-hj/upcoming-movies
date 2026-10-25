@@ -1,0 +1,6 @@
+config:
+  aws:region: us-east-1
+  myapp:bucketName: my-app-bucket-dev-98234
+  myapp:kmsKeyArn: arn:aws:kms:us-east-1:111122223333:key/dev-key-id
+  myapp:functionName: upcoming-movies-func-dev
+  myapp:secretName: dev-app-secrets
